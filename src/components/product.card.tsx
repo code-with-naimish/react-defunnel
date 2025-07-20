@@ -6,7 +6,7 @@ const ProductCard = (props: {
 }) => {
   return (
     <div className="border border-slate-200 rounded-lg overflow-hidden bg-white ">
-      <div className="aspect-video overflow-hidden p-6  ">
+      <div className="aspect-[3/4] overflow-hidden p-6  ">
         <FullImg src={props?.val?.image} alt={props?.val?.title} objectContain={true} />
       </div>
 
